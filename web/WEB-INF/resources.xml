@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <Resource id="BlogRestPU" type="javax.sql.DataSource">#Thu Sep 04 22:48:28 CDT 2014
+        jdbcDriver=org.postgresql.Driver
+        password=jonnon
+        userName=nabuage
+        jdbcUrl=jdbc\:postgresql\://localhost\:5432/blog
+    </Resource>
+    <Service id="json" class-name="org.apache.cxf.jaxrs.provider.json.JSONProvider">
+        SkipJaxbChecks = true
+        DropRootElement = true
+        SupportUnwrapped = true
+        SingleJaxbContext = true
+        DropCollectionWrapperElement = true
+        serializeAsArray = true
+    </Service>
+</resources>

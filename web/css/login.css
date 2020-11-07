@@ -1,0 +1,15 @@
+.login form {
+    padding: 10px 0px 10px 0px;
+    width: 20%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.login form input {
+    width: 100%;
+}
+
+.login form button {
+    padding-top: -10px;
+}
+

@@ -1,0 +1,56 @@
+form fieldset {
+    margin: 0.5em 0 0 0;
+    border: 1px;
+}
+
+.login form fieldset {
+    margin: 0;
+    border: #cccccc 1px solid;
+    padding: 0px 10px 0px 10px !important;
+}
+
+form legend {
+    font-weight: bold;
+    padding: 0px 5px 5px 5px;
+}
+
+form label {
+    display: block;
+    cursor: pointer;
+    /*font-weight: bold;*/
+}
+
+input[type="text"] {
+    width: 20em;
+}
+
+input[type="text"]:focus, textarea:focus {
+    /*background: #ffc;*/
+}
+
+textarea {
+    width: 100%;
+    height: 10em;
+}
+
+input.radio, input.checkbox, input.submit {
+    width: auto;
+}
+
+form .required {
+    font-size: 0.75em;
+    color:#760000;
+    font-weight: normal;
+}
+
+.action-box {
+    /*padding-top: 10px;*/
+}
+form div {
+    padding-bottom: 10px;
+}
+form .form-field-message {
+    padding-bottom: 0px;
+    font-size: 0.75em;
+    color: #760000;
+}

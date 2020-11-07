@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/BlogApp">
+    <Realm className="org.apache.catalina.realm.JAASRealm"
+        appName="BlogApp"
+        userClassNames="org.nabuage.blog.jaas.UserPrincipal"
+        roleClassNames="org.nabuage.blog.jaas.RolePrincipal" />
+</Context>

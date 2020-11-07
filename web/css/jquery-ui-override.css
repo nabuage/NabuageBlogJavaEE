@@ -1,0 +1,93 @@
+.ui-widget {
+    font-size: 1.0em !important;
+    font-family: Arial, SunSans-Regular, Sans-Serif !important;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-bottom-right-radius: 0 !important;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+    border-bottom-left-radius: 0 !important;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 0 !important;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-top-left-radius: 0 !important;
+}
+.ui-dialog {
+    padding: 0 !important;
+}
+.ui-dialog .ui-dialog-titlebar {
+    border-top: 0px !important;
+    border-right: 0px !important;
+    border-left: 0px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+
+.ui-dialog .ui-dialog-titlebar .ui-dialog-titlebar-close {
+    background: url("http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.1/themes/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png") repeat-x scroll 50% 50% #cccccc !important;
+    border: 0px !important;
+}
+.ui-dialog .ui-dialog-titlebar .ui-state-default .ui-icon {
+    background-image: url("http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.1/themes/smoothness/images/ui-icons_454545_256x240.png") !important;
+}
+.ui-dialog .ui-dialog-titlebar .ui-state-hover .ui-icon {
+    background-image: url("http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.1/themes/smoothness/images/ui-icons_cd0a0a_256x240.png") !important;
+}
+.ui-dialog .ui-dialog-buttonpane {
+    padding: 0.5em 1em !important;
+    margin-top: 0 !important;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+    float: left !important;
+    
+}
+.ui-dialog .ui-dialog-buttonpane button {
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 0.8em !important;
+    font-weight: bold !important;
+}
+/*.ui-widget-header {
+    color: #fff;
+    font-weight: normal !important;
+}
+.ui-widget-content {
+    border: 1px solid #e74c3c;
+}
+.ui-widget {
+    font-family: Arial, SunSans-Regular, Sans-Serif !important;
+    font-size: 1em !important;
+}
+.ui-dialog-titlebar .ui-state-default, 
+.ui-dialog-titlebar .ui-widget-content .ui-state-default,
+.ui-dialog-titlebar .ui-widget-header .ui-state-default {
+    background: #c0392b !important;
+    border: 0px !important;
+}
+.ui-dialog-buttonset .ui-state-default, 
+.ui-dialog-buttonset .ui-widget-content .ui-state-default,
+.ui-dialog-buttonset .ui-widget-header .ui-state-default {
+    background:  #27ae60 !important;
+}
+.ui-state-default .ui-icon {
+    background-image: url("http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.1/themes/smoothness/images/ui-icons_ffffff_256x240.png") !important;
+}
+.ui-state-hover .ui-icon,
+.ui-state-focus .ui-icon {
+    background-image: url("http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.1/themes/smoothness/images/ui-icons_222222_256x240.png") !important;
+}
+.ui-state-active .ui-icon {
+	background-image: url("/BlogApp/js/external/jquery-ui-1.11.2/images/ui-icons_ffffff_256x240.png") !important;
+}
+
+
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+    float: left !important;
+}
+.ui-dialog .ui-dialog-buttonpane button {
+    font-family: Arial, SunSans-Regular, Sans-Serif !important;
+    font-weight: normal;
+    color: #fff;
+}*/

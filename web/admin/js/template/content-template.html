@@ -1,0 +1,10 @@
+<% for (var i = 0, counter = articles.length; i < counter; i++) { %>
+    <div class="article">
+        <div class="header">
+            <h2><%= articles[i].title %></h2>
+            <p class="author">by non-non</p>
+        </div>
+        <p><%= articles[i].text %></p>
+        <div class="divider"></div>
+    </div>
+<% } %>

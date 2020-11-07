@@ -1,0 +1,1 @@
+var articlesView = new org.nabuage.blog.view.ArticlesView();
